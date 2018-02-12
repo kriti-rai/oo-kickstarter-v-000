@@ -1,7 +1,7 @@
 require 'pry'
-class Project 
+class Project
   attr_accessor :backers
-  def initialize 
+  def initialize
     @backers = []
   end
 end
